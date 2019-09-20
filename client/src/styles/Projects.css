@@ -1,0 +1,110 @@
+
+@media screen and (min-width: 768px){
+  .title {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .projectNameContainer {
+    display: flex;
+  }
+  
+  .projectContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .projects {
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+  }
+  
+  .mvpImageSize {
+    width: 100px;
+    height: 100%;
+  }
+  
+  .FECImageSize {
+    width: 300px;
+    height: 100%;
+  }
+  
+  .faGithub {
+    margin-right: 2%;
+  }
+  
+  ul {
+    list-style-type: circle;
+    margin-left: 5%;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .title {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobileProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .projectNameContainer {
+    display: flex;
+  }
+  
+  .projectContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projects {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+  }
+  
+  .mvpImageSize {
+    width: 100px;
+    height: 100%;
+  }
+  
+  .FECImageSize {
+    width: 300px;
+    height: 100%;
+  }
+  
+  .faGithub {
+    margin-right: 2%;
+  }
+
+  .mobileList {
+    width: 70%;
+  }
+
+  .mobileIcons{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  ul {
+    list-style-type: circle;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 1.5;
+  }
+}

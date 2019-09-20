@@ -1,0 +1,23 @@
+.mainBody {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.testimonialHeader {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.aboutSection {
+    width: 50%;
+    margin-top: 3%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.testimonialSection {
+    margin-top: 5%;
+}
