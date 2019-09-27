@@ -1,0 +1,37 @@
+.split {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerTitle {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.headerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.headerInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+.headerLists {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.backGroundInfo{
+  width: 100%;
+}

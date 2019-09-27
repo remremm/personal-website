@@ -4,6 +4,7 @@
     .text {
         visibility: visible;
         text-align: center;
+        margin-top: 10%;
     }
     
     .textSmall {
@@ -12,14 +13,15 @@
     
     .background {
         background-color: #fff;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1460170031604-acd9729fe917?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+        background-size: cover;
         width: 100%;
         height: 100vh;
     }
     
-    .title {
-        display: flex;
-        justify-self: flex-start;
+    .photoTitle {
         font-family: 'Ubuntu', sans-serif;
+        color: #fff;
     }
 
     .header {
@@ -30,6 +32,10 @@
     
     .about {
         opacity: 0.4;
+    }
+
+    .logo {
+        opacity: 0.5;
     }
     
     .logo path:nth-child(2){
@@ -106,7 +112,7 @@
     }
 
     .background {
-        background-color: #fff;
+        background-color: #00192F;
         width: 100%;
         height: 100vh;
     }
@@ -115,12 +121,19 @@
         visibility: visible;
     }
 
-    .title {
+    .photoTitle {
+        color: #fff;
+        opacity: 0.4;
         display: flex;
         justify-self: center;
     }
+
+    .header {
+        color: #fff;
+    }
     
     .about {
+        color: #fff;
         opacity: 0.4;
     }
 }

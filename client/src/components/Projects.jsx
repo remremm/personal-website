@@ -58,7 +58,7 @@ class Projects extends React.Component {
     return(
       <div className={styles.mainBody}>
         {modalView}
-        <div className={styles.title}>
+        <div className={styles.projectsTitle}>
           <h1>PROJECTS</h1>
         </div>
         <div className={styles.projectContainer}>
