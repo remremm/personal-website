@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/Navdropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton'
 import Button from 'react-bootstrap/Button';
 import styles from '../styles/Navbar.css';
 
@@ -11,12 +12,12 @@ const NavbarTop = (props) => {
       <Navbar className={styles.navbar} bg="light" variant="light">
         <Navbar.Brand className={styles.brand} onClick={props.goHome}>Remremm</Navbar.Brand>
         <Nav className={styles.drop}>
-        <NavDropdown title="Menu" id="collasible-nav-dropdown" drop="down">
+        <DropdownButton alignRight title="Menu" id="dropdown-menu-align-right" variant="dark-text">
           <NavDropdown.Item onClick={props.changeView}>Home</NavDropdown.Item>
           <NavDropdown.Item onClick={props.changeView}>Projects</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4"><a href="https://www.linkedin.com/in/amarvadhia/">Resume</a></NavDropdown.Item>
-        </NavDropdown>
+          <NavDropdown.Item><a href="https://www.linkedin.com/in/amarvadhia/">Resume</a></NavDropdown.Item>
+        </DropdownButton>
         </Nav>
       </Navbar>
     </div>
