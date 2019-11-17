@@ -2,7 +2,9 @@ import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Header from './Header.jsx';
+import NewBannerIco from '../components/newBanner/NewBannerIco.jsx';
 import styles from '../styles/LargePhoto.css';
+
 
 const LargePhoto = (props) => {
 
@@ -35,10 +37,13 @@ const LargePhoto = (props) => {
   return(
     <div>
       <Jumbotron className={styles.background} fluid>
-        <Container className={styles.text}>
-          {svgImage}
-          <h3 className={`${styles.photoTitle} ${styles.about}`}>Software Engineer. Building all the things! </h3>
-        </Container>
+        <div className={styles.centerItems}>
+          <Container className={styles.text}>
+            {svgImage}
+            <h3 className={`${styles.photoTitle} ${styles.about}`}>Software Engineer. Building all the things! </h3>
+          </Container>
+          <NewBannerIco />
+        </div>
         <Container className={styles.textSmall}>
           <h1 className={styles.header}>AMAR VADHIA</h1>
           <h3 className={`${styles.photoTitle} ${styles.about}`}>I build fun things. Sometimes Boring things. Usually all the things!</h3>

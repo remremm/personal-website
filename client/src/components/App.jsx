@@ -3,7 +3,6 @@ import Modal from 'react-bootstrap/Modal'
 import styles from '../styles/App.css';
 import Navbar from './Navbar.jsx';
 import LargePhoto from './LargePhoto.jsx';
-import AboutMe from './AboutMe.jsx';
 import Projects from './Projects.jsx';
 
 class App extends React.Component{
@@ -36,8 +35,6 @@ class App extends React.Component{
     let view;
     if(!this.state.view || this.state.view === 'Home'){
       view = <LargePhoto />
-    }else if(this.state.view === 'Testimonials'){
-      view = <AboutMe />
     }else if(this.state.view === 'Projects'){
       view = <Projects iZippy={this.iZippy} anotherWorld={this.anotherWorld} bedSpace={this.bedSpace}/>
     }

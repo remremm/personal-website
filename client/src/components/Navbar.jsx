@@ -15,8 +15,6 @@ const NavbarTop = (props) => {
         <DropdownButton alignRight title="Menu" id="dropdown-menu-align-right" variant="dark-text">
           <NavDropdown.Item onClick={props.changeView}>Home</NavDropdown.Item>
           <NavDropdown.Item onClick={props.changeView}>Projects</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item><a href="https://www.linkedin.com/in/amarvadhia/">Resume</a></NavDropdown.Item>
         </DropdownButton>
         </Nav>
       </Navbar>

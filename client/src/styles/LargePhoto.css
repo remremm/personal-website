@@ -10,6 +10,13 @@
     .textSmall {
         visibility: hidden;
     }
+
+    .centerItems {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     
     .background {
         background-color: #fff;
@@ -115,6 +122,13 @@
         background-color: #00192F;
         width: 100%;
         height: 100vh;
+    }
+
+    .centerItems {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .textSmall {
