@@ -28,17 +28,19 @@ class Header extends Component {
 
   render(){
     return (
-      <div>
-        <div className={styles.headerContainer}>
-          <div className={styles.headerTitleContainer}>
-            <span className={styles.headerTitle}><h3>So, you want to learn more about me?</h3></span>
-            <span className={styles.headerSubTitle}><h5>COME FIND OUT!</h5></span>
+      <div className={styles.headerBackgroundImage}>
+        <div className={styles.headerInfoContainer}>
+          <div className={styles.headerContainer}>
+            <div className={styles.headerTitleContainer}>
+              <span className={styles.headerTitle}><h3>So, you want to learn more about me?</h3></span>
+              <span className={styles.headerSubTitle}><h5>COME FIND OUT!</h5></span>
+            </div>
           </div>
-        </div>
-        <div className={styles.headerLikesContainer}>
-          {this.state.likes.map(like => {
-            return <Likes key={like.id} like={like.like} url={like.url} link={like.link}/>
-          })}
+          <div className={styles.headerLikesContainer}>
+            {this.state.likes.map(like => {
+              return <Likes key={like.id} like={like.like} url={like.url} link={like.link}/>
+            })}
+          </div>
         </div>
       </div>
     )

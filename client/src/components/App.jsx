@@ -1,5 +1,4 @@
 import React from 'react';
-import Modal from 'react-bootstrap/Modal'
 import styles from '../styles/App.css';
 import Navbar from './Navbar.jsx';
 import LargePhoto from './LargePhoto.jsx';
